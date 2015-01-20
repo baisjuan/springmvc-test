@@ -1,6 +1,6 @@
-package com.devspark.dietsystem.dto;
+package com.dfanaro.springmvc.dto;
 
-import com.devspark.dietsystem.entity.Plate;
+import com.dfanaro.springmvc.entity.Plate;
 import org.apache.solr.client.solrj.beans.Field;
 
 /**

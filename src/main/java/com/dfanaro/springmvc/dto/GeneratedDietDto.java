@@ -1,4 +1,4 @@
-package com.devspark.dietsystem.dto;
+package com.dfanaro.springmvc.dto;
 
 /**
  * This class models a DTO for a diet that is generated dynamically from the DB

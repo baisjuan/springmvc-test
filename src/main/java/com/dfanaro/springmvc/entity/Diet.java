@@ -1,6 +1,6 @@
-package com.devspark.dietsystem.entity;
+package com.dfanaro.springmvc.entity;
 
-import com.devspark.dietsystem.dto.SavedDietDto;
+import com.dfanaro.springmvc.dto.SavedDietDto;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;

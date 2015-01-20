@@ -1,9 +1,9 @@
-package com.devspark.dietsystem.controller;
+package com.dfanaro.springmvc.controller;
 
-import com.devspark.dietsystem.dto.GeneratedDietDto;
-import com.devspark.dietsystem.dto.SavedDietDto;
-import com.devspark.dietsystem.service.DietService;
-import com.devspark.dietsystem.util.AbstractList;
+import com.dfanaro.springmvc.dto.GeneratedDietDto;
+import com.dfanaro.springmvc.dto.SavedDietDto;
+import com.dfanaro.springmvc.service.DietService;
+import com.dfanaro.springmvc.util.AbstractList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

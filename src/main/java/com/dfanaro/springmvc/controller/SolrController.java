@@ -1,6 +1,6 @@
-package com.devspark.dietsystem.controller;
+package com.dfanaro.springmvc.controller;
 
-import com.devspark.dietsystem.util.SolrConnectionService;
+import com.dfanaro.springmvc.util.SolrConnectionService;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

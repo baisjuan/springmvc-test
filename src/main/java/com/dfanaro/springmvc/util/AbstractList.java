@@ -1,4 +1,4 @@
-package com.devspark.dietsystem.util;
+package com.dfanaro.springmvc.util;
 
 import java.util.ArrayList;
 import java.util.List;

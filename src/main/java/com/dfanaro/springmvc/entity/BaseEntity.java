@@ -1,4 +1,4 @@
-package com.devspark.dietsystem.entity;
+package com.dfanaro.springmvc.entity;
 
 import java.io.Serializable;
 import javax.persistence.Column;

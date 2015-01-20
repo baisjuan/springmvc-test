@@ -1,6 +1,6 @@
-package com.devspark.dietsystem.dao;
+package com.dfanaro.springmvc.dao;
 
-import com.devspark.dietsystem.entity.Diet;
+import com.dfanaro.springmvc.entity.Diet;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.criteria.CriteriaBuilder;

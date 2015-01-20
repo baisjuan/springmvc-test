@@ -1,4 +1,4 @@
-package com.devspark.dietsystem.util;
+package com.dfanaro.springmvc.util;
 
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;

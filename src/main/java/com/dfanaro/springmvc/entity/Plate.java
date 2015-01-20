@@ -1,6 +1,6 @@
-package com.devspark.dietsystem.entity;
+package com.dfanaro.springmvc.entity;
 
-import com.devspark.dietsystem.dto.PlateDto;
+import com.dfanaro.springmvc.dto.PlateDto;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -82,7 +82,7 @@ public class Plate extends BaseEntity {
     /**
      * Return the DTO representation.
      *
-     * @return a {@link PlateDto} instance.
+     * @return a {@link com.dfanaro.springmvc.dto.PlateDto} instance.
      */
     public PlateDto toDto() {
         return new PlateDto(name, calories, lunch, dinner, breakfast, supper);

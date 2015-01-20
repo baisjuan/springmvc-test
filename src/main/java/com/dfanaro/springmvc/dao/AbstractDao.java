@@ -1,6 +1,6 @@
-package com.devspark.dietsystem.dao;
+package com.dfanaro.springmvc.dao;
 
-import com.devspark.dietsystem.entity.BaseEntity;
+import com.dfanaro.springmvc.entity.BaseEntity;
 import org.apache.commons.lang3.Validate;
 import org.springframework.stereotype.Repository;
 

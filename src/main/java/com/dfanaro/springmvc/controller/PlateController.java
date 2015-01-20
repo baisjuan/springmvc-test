@@ -1,7 +1,7 @@
-package com.devspark.dietsystem.controller;
+package com.dfanaro.springmvc.controller;
 
-import com.devspark.dietsystem.dto.PlateDto;
-import com.devspark.dietsystem.service.PlateService;
+import com.dfanaro.springmvc.dto.PlateDto;
+import com.dfanaro.springmvc.service.PlateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

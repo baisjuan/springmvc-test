@@ -1,4 +1,4 @@
-package com.devspark.dietsystem.dto;
+package com.dfanaro.springmvc.dto;
 
 /**
  * This class models the Data Transfer Object for entity Diet

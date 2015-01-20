@@ -1,4 +1,4 @@
-package com.devspark.dietsystem.exception;
+package com.dfanaro.springmvc.exception;
 
 /**
  * Created with IntelliJ IDEA.

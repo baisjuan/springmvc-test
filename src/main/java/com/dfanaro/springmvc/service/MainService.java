@@ -1,4 +1,4 @@
-package com.devspark.dietsystem.service;
+package com.dfanaro.springmvc.service;
 
 import org.springframework.stereotype.Service;
 

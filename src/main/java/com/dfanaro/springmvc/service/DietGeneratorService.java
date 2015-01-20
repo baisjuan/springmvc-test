@@ -1,8 +1,8 @@
-package com.devspark.dietsystem.service;
+package com.dfanaro.springmvc.service;
 
-import com.devspark.dietsystem.dao.PlateDao;
-import com.devspark.dietsystem.dto.GeneratedDietDto;
-import com.devspark.dietsystem.entity.Plate;
+import com.dfanaro.springmvc.dao.PlateDao;
+import com.dfanaro.springmvc.dto.GeneratedDietDto;
+import com.dfanaro.springmvc.entity.Plate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
