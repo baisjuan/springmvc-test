@@ -9,8 +9,14 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.criteria.*;
 import java.util.List;
 
+/**
+ * TODO: brief comment about this class
+ *
+ * @author Damian Fanaro (damianfanaro@gmail.com)
+ * @date 24/01/15
+ */
 @Repository
-public abstract class AbstractDao<T extends BaseEntity> {
+public abstract class AbstractDAO<T extends BaseEntity> {
 
     protected EntityManager entityManager;
 

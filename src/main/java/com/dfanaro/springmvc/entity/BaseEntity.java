@@ -1,5 +1,7 @@
 package com.dfanaro.springmvc.entity;
 
+import com.dfanaro.springmvc.dto.DTORepresentation;
+
 import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
@@ -7,6 +9,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
+/**
+ * TODO: brief comment about this class
+ *
+ * @author Damian Fanaro (damianfanaro@gmail.com)
+ * @date 24/01/15
+ */
 @MappedSuperclass
 public abstract class BaseEntity implements Serializable {
 
@@ -21,15 +29,15 @@ public abstract class BaseEntity implements Serializable {
         id = null;
     }
 
+    public BaseEntity(Long id) {
+        this.id = id;
+    }
+
     public Long getId() {
         return id;
     }
 
     public void setId(Long id) {
-        this.id = id;
-    }
-
-    public BaseEntity(Long id) {
         this.id = id;
     }
 
@@ -41,19 +49,22 @@ public abstract class BaseEntity implements Serializable {
      */
     protected abstract Class<? extends BaseEntity> entityClass();
 
+    /**
+     * All entities must expose their DTO representations
+     *
+     * @return the DTO representation
+     */
+    public abstract DTORepresentation toDTO();
+
     @Override
     public final boolean equals(Object obj) {
-
-        if (this == obj) {
-            return true;
-        }
+        if (this == obj) return true;
 
         if (getId() != null && entityClass().isInstance(obj)) {
             BaseEntity other = (BaseEntity) obj;
-            return getId().equals(other.getId())
-                    // for symmetric constraint
-                    && entityClass().equals(other.entityClass());
+            return getId().equals(other.getId()) && entityClass().equals(other.entityClass());
         }
+
         return false;
     }
 
@@ -69,4 +80,5 @@ public abstract class BaseEntity implements Serializable {
     public String toString() {
         return entityClass().getSimpleName() + "(id:" + getId() + ")";
     }
+
 }

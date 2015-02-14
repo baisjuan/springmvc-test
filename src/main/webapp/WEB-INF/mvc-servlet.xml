@@ -14,12 +14,13 @@
                            http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
 
     <context:annotation-config/>
-    <context:component-scan base-package="com.devspark.dietsystem"/>
+    <context:component-scan base-package="com.dfanaro.springmvc"/>
 
     <mvc:annotation-driven/>
 
-    <!-- Resources location -->
+    <!-- Resource locations -->
 
+    <mvc:resources mapping="/js/**" location="/WEB-INF/js/"/>
     <mvc:resources mapping="/lib/**" location="/WEB-INF/lib/"/>
     <mvc:resources mapping="/style/**" location="/WEB-INF/style/"/>
 
